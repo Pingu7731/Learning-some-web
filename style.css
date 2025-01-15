@@ -57,3 +57,63 @@ body {
   width: 170px;
   height: 170px;
 }
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(50, 51, 51);
+}
+
+.clock {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 2;
+  box-shadow: inset 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+#time {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+circle {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+#ss {
+  stroke: #ff2972; 
+}
+
+#mm {
+  stroke: #00ffff; 
+}
+
+#hh {
+  stroke: #ffcc00; 
+} */
