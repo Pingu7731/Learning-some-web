@@ -45,6 +45,7 @@ nav{
 
 }
 nav img{
+  margin-left: 5px;
   width: 60px;
   height: auto;
   display: block;
@@ -87,10 +88,10 @@ nav ul li a:hover::after{
 
 .header-text{
   color: aliceblue;
-  
+  margin-left: 50px;
 }
 .header-text p{
-  
+ 
   margin-top:20px ;
   font-size: 30px;
 }
@@ -105,4 +106,28 @@ nav ul li a:hover::after{
 .header-text h1 span:hover{
   color:rgb(255, 70, 70);
   font-size: 200px;
+}
+
+/* about section */
+
+#about{
+  padding: 20px 20px 20px 20px ;
+  color :#ababab;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} 
+.aboutCol1{
+  flex-basis: 35%;
+}
+.aboutCol1 img {
+  padding-left: 20px;
+  width: 650px;
+  height: auto;
+}
+.aboutCol2{
+  flex-basis: 60%;
 }
